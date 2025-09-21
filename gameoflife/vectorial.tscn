@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=3 uid="uid://q2p1ysqhx8xl"]
+
+[ext_resource type="Script" uid="uid://c34o6vuk6rydd" path="res://vectorial.gd" id="1_pap21"]
+[ext_resource type="Texture2D" uid="uid://bymcvd2dla630" path="res://icon.svg" id="2_p0kcf"]
+
+[node name="Vectorial" type="Node2D"]
+script = ExtResource("1_pap21")
+
+[node name="center" type="Sprite2D" parent="."]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_p0kcf")
+
+[node name="proyect_left_right" type="Sprite2D" parent="."]
+modulate = Color(0.5369237, 0.0034471243, 0.9042243, 1)
+position = Vector2(122, 67)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_p0kcf")
+
+[node name="proyect_right_left" type="Sprite2D" parent="."]
+modulate = Color(0.4251189, 0.27281675, 0.09958462, 1)
+position = Vector2(156, 114)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_p0kcf")
+
+[node name="right" type="Sprite2D" parent="."]
+modulate = Color(0.06192352, 0.31990117, 0.7945695, 1)
+position = Vector2(67, 153)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_p0kcf")
+
+[node name="left" type="Sprite2D" parent="."]
+modulate = Color(1.6605109e-06, 0.5885346, 0.1790461, 1)
+position = Vector2(214, 67)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_p0kcf")
+
+[node name="sum" type="Sprite2D" parent="."]
+modulate = Color(0.61311305, 0.16968921, 0, 1)
+position = Vector2(329, 152)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_p0kcf")
+
+[node name="sub" type="Sprite2D" parent="."]
+modulate = Color(0.7732428, 6.6420434e-06, 0.49275088, 1)
+position = Vector2(205, 163)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_p0kcf")
+
+[node name="Camera2D" type="Camera2D" parent="."]
